@@ -1,3 +1,4 @@
+# ---- Powerlevel10k -----
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -10,7 +11,7 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# history setup
+# ---- history setup -----
 HISTFILE=$HOME/.zhistory
 SAVEHIST=1000
 HISTSIZE=999
@@ -23,7 +24,10 @@ setopt hist_verify
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
 
-# terminal suggestions and highlighting
+# ---- auto completions -----
+autoload -Uz compinit && compinit
+
+# ---- terminal suggestions and highlighting -----
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -45,4 +49,13 @@ alias cat="bat"
 
 # ---- FZF ----
 source <(fzf --zsh)
-source .fzf-git.sh
+source ~/fzf-git.sh
+
+# ---- Re Alias' ----
+alias la="ls -a"
+alias ll="ls -l"
+alias l="ls"
+
+alias gst="git status"
+alias gcm="git commit -m"
+alias ga="git add"
