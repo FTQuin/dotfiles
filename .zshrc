@@ -1,6 +1,6 @@
 # ---- TITLE ----
 sleep 0.1
-neofetch --loop --iterm2 ~/dotfiles/start_up_image/trailer_roof.jpeg --size 820px
+neofetch --loop --iterm2 ~/.start_up_image/trailer_roof.jpeg --size 820px
 
 # ---- Powerlevel10k -----
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -53,7 +53,7 @@ alias cat="bat"
 
 # ---- FZF ----
 source <(fzf --zsh)
-source ~/fzf-git.sh
+source ~/.fzf-git.sh
 
 # ---- Re Alias' ----
 alias la="ls -a"
