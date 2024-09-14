@@ -1,6 +1,7 @@
 # ---- TITLE ----
 sleep 0.1
 neofetch --loop --iterm2 ~/.start_up_image/trailer_roof.jpeg --size 820px
+alias src='source ~/.zshrc'
 
 # ---- Powerlevel10k -----
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -36,7 +37,12 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
+# ---- cd backwards -----
+alias ..="cd .."
+
 # ---- NVM -----
+alias vim=nvim
+alias v=nvim
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
