@@ -1,6 +1,7 @@
 aom
 bat
 brotli
+btop
 ca-certificates
 eza
 fd
