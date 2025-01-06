@@ -11,4 +11,5 @@ stow . --adopt
 ## for brew package management
 
 brew list > .brew_list.txt
+
 brew install $(cat .brew_list.txt)
