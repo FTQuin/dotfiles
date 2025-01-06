@@ -1,7 +1,9 @@
 # ---- TITLE ----
-sleep 0.1
-neofetch --loop --iterm2 ~/.start_up_image/trailer_roof.jpeg --size 820px
+neofetch
 alias src='source ~/.zshrc'
+
+# ---- HOMEBREW -----
+export PATH="/Users/personal/brew/bin:$PATH"
 
 # ---- Powerlevel10k -----
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
