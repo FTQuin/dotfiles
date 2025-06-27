@@ -3,7 +3,7 @@ neofetch
 alias src='source ~/.zshrc'
 
 # ---- HOMEBREW -----
-export PATH="/Users/personal/brew/bin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
 
 # ---- Powerlevel10k -----
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -97,3 +97,9 @@ alias ga="git add"
 # echo "\u001b[38;2;217;176;50m░░░░░        ░░░░░      ░░░░░░                                               \033[0m"
 # echo "                                                                             "
 # echo "                                                                             "
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /Users/quinadam/.dart-cli-completion/zsh-config.zsh ]] && . /Users/quinadam/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
