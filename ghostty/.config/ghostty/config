@@ -12,11 +12,11 @@ window-theme = system
 window-padding-balance = true
 
 # Appearance Settings
-theme = dark:tokyonight,light:BlulocoLight
+theme = dark:0x96f,light:BlulocoLight
 # background-opacity = 0.002 # used for purely transparent background
-# background-opacity = 0.6
+background-opacity = 0.8
 # background-opacity = 1
-# background-blur-radius = 7
+background-blur-radius = 8
 # background = #222436
 # background = #000000
 # foreground = #c8d3f5

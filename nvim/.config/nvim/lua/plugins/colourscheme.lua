@@ -3,7 +3,7 @@ return {
   {
     "folke/tokyonight.nvim",
     opts = {
-      transparent = false,
+      transparent = true,
       styles = {},
     },
   },
@@ -14,6 +14,20 @@ return {
   {
     "projekt0n/github-nvim-theme",
     name = "github-theme",
+    opts = {
+      options = {
+        transparent = true,
+      },
+      groups = {
+        all = {
+          StatusLine = { bg = "NONE" },
+          StatusLineNC = { bg = "NONE" },
+          TabLine = { bg = "NONE" },
+          TabLineFill = { bg = "NONE" },
+          TabLineSel = { bg = "NONE" },
+        },
+      },
+    },
   },
   {
     "sainnhe/edge",
@@ -22,7 +36,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "github_dark_high_contrast",
     },
   },
 }
