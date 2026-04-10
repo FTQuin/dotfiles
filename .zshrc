@@ -4,9 +4,14 @@ alias src='source ~/.zshrc'
 
 # ---- HOMEBREW -----
 export PATH="/opt/homebrew/bin:$PATH"
+# alias brew='sudo -u qadams /opt/homebrew/bin/brew'
 
+# ---- XDG_CONFIG_HOME -----
+export XDG_CONFIG_HOME="$HOME/.config"
 
 # ---- TERM -----
+# make TERM a stardard and not xterm-ghostty
+# export TERM=xterm-256color
 
 # ---- Powerlevel10k -----
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -39,6 +44,7 @@ export EDITOR=nvim
 autoload edit-command-line
 zle -N edit-command-line
 bindkey '^Xe' edit-command-line
+bindkey '^X^E' edit-command-line
 
 # completion using arrow keys (based on history)
 bindkey '^[[A' history-search-backward
@@ -51,6 +57,9 @@ autoload -Uz compinit && compinit
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# ---- Global Aliases -----
+# add C after a command to copy output to clipboard
+alias -g C='| tee >(pbcopy)'
 
 # ---- cd -----
 alias b="cd -"
@@ -71,6 +80,10 @@ alias v=nvim
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+# ---- map to proper python -----
+alias python=/usr/bin/python3
+alias python3=/usr/bin/python3
 
 # ---- Eza (better ls) -----
 alias ls="eza --git --header --icons=always --sort=modified"
