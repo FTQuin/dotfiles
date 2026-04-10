@@ -2,14 +2,24 @@
 
 ## for pushing dotfiles into the real world
 
-stow .
+```bash
+stow <package-name>
+```
+e.g. stow nvim
 
 ## for pulling dotfiles from the real world
 
-stow . --adopt
+```bash
+stow <package-name or file> --adopt
+```
+e.g. stow <package-name> --adopt
 
 ## for brew package management
 
-brew list > .brew_list.txt
+```bash
+brew list > brew_list.txt
+```
 
-brew install $(cat .brew_list.txt)
+```bash
+brew install $(cat brew_list.txt)
+```
