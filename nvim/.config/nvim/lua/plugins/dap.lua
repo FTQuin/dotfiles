@@ -43,9 +43,6 @@ return {
 
       local dap = require("dap")
 
-      -- Load launch.json configs
-      vscode.load_launchjs(nil, { node = { "node2", "pwa-node" } })
-
       -- Define adapters
       dap.adapters.node2 = {
         type = "executable",

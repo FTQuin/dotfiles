@@ -51,7 +51,8 @@ bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
 
 # ---- auto completions -----
-autoload -Uz compinit && compinit
+autoload -Uz compinit
+compinit -u
 
 # ---- terminal suggestions and highlighting -----
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh

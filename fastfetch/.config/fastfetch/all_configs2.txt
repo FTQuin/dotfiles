@@ -1,0 +1,484 @@
+━━━ Battery ━━━
+  Battery.capacity-bar:               
+  Battery.capacity:                   45%
+  Battery.cycle-count:                931
+  Battery.manufacture-date:           2021-08-38
+  Battery.manufacturer:               Apple Inc.
+  Battery.model-name:                 bq40z651
+  Battery.serial:                     F8Y135608K30J9T2U
+  Battery.status:                     Discharging
+  Battery.technology:                 Lithium
+  Battery.temperature:                
+  Battery.time-days:                  0
+  Battery.time-formatted:             2 hours, 13 mins
+  Battery.time-hours:                 2
+  Battery.time-minutes:               13
+  Battery.time-seconds:               0
+
+━━━ BIOS ━━━
+  BIOS.date:                          Thu Nov 13 21:43:04 PST 2025
+  BIOS.release:                       
+  BIOS.type:                          iBoot
+  BIOS.vendor:                        Apple Inc.
+  BIOS.version:                       13822.61.10
+
+━━━ Bluetooth ━━━
+  :                                   
+
+━━━ BluetoothRadio ━━━
+  BluetoothRadio.address:             F4:D4:88:71:25:A5
+  BluetoothRadio.connectable:         true
+  BluetoothRadio.discoverable:        false
+  BluetoothRadio.lmp-subversion:      -2147483648
+  BluetoothRadio.lmp-version:         -11
+  BluetoothRadio.name:                QADAMS’s MacBook Pro
+  BluetoothRadio.vendor:              Apple
+  BluetoothRadio.version:             5.2
+
+━━━ Board ━━━
+  Board.name:                         J316sAP
+  Board.serial:                       
+  Board.vendor:                       Apple Inc.
+  Board.version:                      
+
+━━━ Bootmgr ━━━
+  Bootmgr.firmware-name:              boot.efi
+  Bootmgr.firmware-path:              /System/Library/CoreServices/boot.efi
+  Bootmgr.name:                       iBoot
+  Bootmgr.order:                      0
+  Bootmgr.secure-boot:                true
+
+━━━ Brightness ━━━
+  Brightness.current:                 0.92
+  Brightness.is-builtin:              true
+  Brightness.max:                     1.00
+  Brightness.min:                     0.00
+  Brightness.name:                    Color LCD
+  Brightness.percentage-bar:          
+  Brightness.percentage:              92%
+
+━━━ Btrfs ━━━
+  :                                   
+
+━━━ Camera ━━━
+  Camera.colorspace:                  sRGB
+  Camera.height:                      1080
+  Camera.id:                          47B4B64B-7067-4B9C-AD2B-AE273A71F4B5
+  Camera.name:                        FaceTime HD Camera
+  Camera.vendor:                      Apple Inc.
+  Camera.width:                       1920
+
+━━━ Chassis ━━━
+  Chassis.serial:                     
+  Chassis.type:                       Laptop
+  Chassis.vendor:                     Apple Inc.
+  Chassis.version:                    
+
+━━━ Command ━━━
+  :                                   
+
+━━━ CPU ━━━
+  CPU.core-types:                     
+  CPU.cores-logical:                  10
+  CPU.cores-online:                   10
+  CPU.cores-physical:                 10
+  CPU.freq-base:                      
+  CPU.freq-max:                       3.23 GHz
+  CPU.march:                          ARMv8.4-A
+  CPU.name:                           Apple M1 Pro
+  CPU.numa-nodes:                     0
+  CPU.packages:                       1
+  CPU.temperature:                    
+  CPU.vendor:                         Apple
+
+━━━ CPUCache ━━━
+  CPUCache.result:                    8x192.00 KiB (I), 8x128.00 KiB (D), 2x128.00 KiB (I), 2x64.00 KiB (D)
+  CPUCache.result:                    2x12.00 MiB (U), 4.00 MiB (U)
+  CPUCache.sum:                       2.88 MiB
+  CPUCache.sum:                       28.00 MiB
+
+━━━ CPUUsage ━━━
+  CPUUsage.avg-bar:                   
+  CPUUsage.avg:                       13%
+  CPUUsage.max-bar:                   
+  CPUUsage.max-index:                 0
+  CPUUsage.max:                       50%
+  CPUUsage.min-bar:                   
+  CPUUsage.min-index:                 8
+  CPUUsage.min:                       10%
+
+━━━ Cursor ━━━
+  Cursor.size:                        32
+  Cursor.theme:                       Fill - Black, Outline - White
+
+━━━ DateTime ━━━
+  DateTime.day-in-month:              10
+  DateTime.day-in-week:               5
+  DateTime.day-in-year:               100
+  DateTime.day-pretty:                10
+  DateTime.hour-pretty:               01
+  DateTime.hour:                      1
+  DateTime.minute-pretty:             57
+  DateTime.minute:                    57
+  DateTime.month-name-short:          Apr
+  DateTime.month-name:                April
+  DateTime.month-pretty:              04
+  DateTime.month:                     4
+  DateTime.offset-from-utc:           -0700
+  DateTime.second-pretty:             10
+  DateTime.second:                    10
+  DateTime.timezone-name:             PDT
+  DateTime.week:                      15
+  DateTime.weekday-short:             Fri
+  DateTime.weekday:                   Friday
+  DateTime.year-short:                26
+  DateTime.year:                      2026
+
+━━━ DE ━━━
+  :                                   
+
+━━━ Display ━━━
+  Display.bit-depth:                  10
+  Display.dpi:                        192
+  Display.hdr-compatible:             true
+  Display.hdr-enabled:                false
+  Display.height:                     2234
+  Display.inch:                       16
+  Display.is-primary:                 true
+  Display.manufacture-week:           0
+  Display.manufacture-year:           0
+  Display.name:                       Color LCD
+  Display.physical-height:            223
+  Display.physical-width:             345
+  Display.platform-api:               CoreGraphics
+  Display.ppi:                        254
+  Display.preferred-height:           2234
+  Display.preferred-refresh-rate:     120
+  Display.preferred-width:            3456
+  Display.refresh-rate:               120
+  Display.rotation:                   0
+  Display.scale-factor:               2.00
+  Display.scaled-height:              1117
+  Display.scaled-width:               1728
+  Display.serial:                     62-6D-62-FD
+  Display.type:                       Built-in
+  Display.width:                      3456
+
+━━━ Disk ━━━
+  Disk.create-time:                   2025-11-22 05:49:28
+  Disk.days-of-year:                  138
+  Disk.days:                          138
+  Disk.files-percentage-bar:          
+  Disk.files-percentage:              0%
+  Disk.files-total:                   2169748579
+  Disk.files-used:                    453019
+  Disk.filesystem:                    apfs
+  Disk.hours:                         19
+  Disk.is-external:                   false
+  Disk.is-hidden:                     false
+  Disk.is-readonly:                   true
+  Disk.milliseconds:                  309
+  Disk.minutes:                       7
+  Disk.mount-from:                    /dev/disk3s3s1
+  Disk.mountpoint:                    /
+  Disk.name:                          Macintosh HD
+  Disk.seconds:                       42
+  Disk.size-available:                206.88 GiB
+  Disk.size-free:                     206.88 GiB
+  Disk.size-percentage-bar:           
+  Disk.size-percentage:               55%
+  Disk.size-total:                    460.43 GiB
+  Disk.size-used:                     253.55 GiB
+  Disk.years-fraction:                0.38
+  Disk.years:                         0
+
+━━━ DiskIO ━━━
+  DiskIO.bytes-read:                  3649536
+  DiskIO.bytes-written:               5246976
+  DiskIO.dev-path:                    /dev/disk0
+  DiskIO.name:                        APPLE SSD AP0512R Media
+  DiskIO.read-count:                  100
+  DiskIO.size-read:                   284.00 KiB/s
+  DiskIO.size-written:                2.38 MiB/s
+  DiskIO.write-count:                 192
+
+━━━ DNS ━━━
+  DNS.result:                         192.168.1.254 2001:568:ff09:10a::116 2001:568:ff09:10c::67
+
+━━━ Editor ━━━
+  Editor.exe-name:                    nvim
+  Editor.name:                        nvim
+  Editor.path:                        /opt/homebrew/Cellar/neovim/0.12.1/bin/nvim
+  Editor.type:                        Editor
+  Editor.version:                     0.12.1
+
+━━━ Font ━━━
+  Font.combined:                      .AppleSystemUIFont [System], Helvetica [User]
+
+━━━ Gamepad ━━━
+  :                                   
+
+━━━ GPU ━━━
+  GPU.core-count:                     16
+  GPU.core-usage-bar:                 
+  GPU.core-usage-num:                 0%
+  GPU.dedicated-percentage-bar:       
+  GPU.dedicated-percentage-num:       
+  GPU.dedicated-total:                
+  GPU.dedicated-used:                 
+  GPU.driver:                         com.apple.AGXG13X 342.3
+  GPU.frequency:                      1.30 GHz
+  GPU.index:                          0
+  GPU.memory-type:                    
+  GPU.name:                           Apple M1 Pro
+  GPU.platform-api:                   Metal 4
+  GPU.shared-percentage-bar:          
+  GPU.shared-percentage-num:          6%
+  GPU.shared-total:                   11.84 GiB
+  GPU.shared-used:                    667.78 MiB
+  GPU.temperature:                    
+  GPU.type:                           Integrated
+  GPU.vendor:                         Apple
+
+━━━ Host ━━━
+  Host.family:                        MacBookPro18,1
+  Host.name:                          MacBook Pro (16-inch, 2021)
+  Host.serial:                        KXF5XVT7PK
+  Host.sku:                           
+  Host.uuid:                          8E4D7C7D-1257-51CF-8C3A-B6665CD393C7
+  Host.vendor:                        Apple Inc.
+  Host.version:                       
+
+━━━ InitSystem ━━━
+  InitSystem.exe:                     /sbin/launchd
+  InitSystem.name:                    launchd
+  InitSystem.pid:                     1
+  InitSystem.version:                 7.0.0
+
+━━━ Kernel ━━━
+  Kernel.arch:                        arm64
+  Kernel.display-version:             {display-version}
+  Kernel.page-size:                   16.00 KiB
+  Kernel.release:                     25.2.0
+  Kernel.sysname:                     Darwin
+  Kernel.version:                     Darwin Kernel Version 25.2.0: Tue Nov 18 21:09:40 PST 2025; root:xnu-12377.61.12~1/RELEASE_ARM64_T6000
+
+━━━ Keyboard ━━━
+  Keyboard.name:                      Apple Internal Keyboard / Trackpad
+  Keyboard.serial:                    FM7142603EMNX0QAK+EMN
+
+━━━ LM ━━━
+  :                                   
+
+━━━ Locale ━━━
+  Locale.result:                      en_CA.UTF-8
+
+━━━ LocalIp ━━━
+  LocalIp.flags:                      
+  LocalIp.ifname:                     en0
+  LocalIp.is-default-route:           2
+  LocalIp.mac:                        
+  LocalIp.mtu:                        -1
+  LocalIp.speed:                      
+
+━━━ Media ━━━
+  :                                   
+
+━━━ Memory ━━━
+  Memory.percentage-bar:              
+  Memory.percentage:                  89%
+  Memory.total:                       16.00 GiB
+  Memory.used:                        14.19 GiB
+
+━━━ Monitor ━━━
+  Monitor.hdr-compatible:             true
+  Monitor.height:                     2234
+  Monitor.inch:                       16.17
+  Monitor.manufacture-week:           0
+  Monitor.manufacture-year:           0
+  Monitor.name:                       
+  Monitor.physical-height:            223
+  Monitor.physical-width:             345
+  Monitor.ppi:                        254.45
+  Monitor.refresh-rate:               120.00
+  Monitor.serial:                     62-6D-62-FD
+  Monitor.width:                      3456
+
+━━━ Mouse ━━━
+  Mouse.name:                         Apple Internal Keyboard / Trackpad
+  Mouse.serial:                       FM7142603EMNX0QAK+EMN
+
+━━━ NetIO ━━━
+  NetIO.ifname:                       en0
+  NetIO.is-default-route:             true
+  NetIO.rx-bytes:                     518
+  NetIO.rx-drops:                     0
+  NetIO.rx-errors:                    0
+  NetIO.rx-packets:                   8
+  NetIO.rx-size:                      1.47 KiB/s
+  NetIO.tx-bytes:                     11857
+  NetIO.tx-drops:                     0
+  NetIO.tx-errors:                    0
+  NetIO.tx-packets:                   2
+  NetIO.tx-size:                      1.97 KiB/s
+
+━━━ OpenCL ━━━
+  OpenCL.name:                        Apple
+  OpenCL.vendor:                      Apple
+  OpenCL.version:                     1.2 (Nov  8 2025 19:10:43)
+
+━━━ OpenGL ━━━
+  OpenGL.library:                     CGL 1.2
+  OpenGL.renderer:                    Apple M1 Pro
+  OpenGL.slv:                         4.10
+  OpenGL.vendor:                      Apple
+  OpenGL.version:                     4.1 Metal - 90.5
+
+━━━ OS ━━━
+  OS.arch:                            arm64
+  OS.build-id:                        25C56
+  OS.codename:                        Tahoe
+  OS.id-like:                         
+  OS.id:                              macos
+  OS.name:                            macOS
+  OS.pretty-name:                     macOS Tahoe 26.2 (25C56)
+  OS.sysname:                         Darwin
+  OS.variant-id:                      
+  OS.variant:                         
+  OS.version-id:                      26.2
+  OS.version:                         26.2
+
+━━━ Packages ━━━
+  Packages.all:                       223
+  Packages.am-system:                 0
+  Packages.am-user:                   0
+  Packages.apk:                       0
+  Packages.brew-all:                  223
+  Packages.brew-cask:                 23
+  Packages.brew:                      200
+  Packages.choco:                     0
+  Packages.dpkg:                      0
+  Packages.emerge:                    0
+  Packages.eopkg:                     0
+  Packages.flatpak-all:               0
+  Packages.flatpak-system:            0
+  Packages.flatpak-user:              0
+  Packages.guix-all:                  0
+  Packages.guix-home:                 0
+  Packages.guix-system:               0
+  Packages.guix-user:                 0
+  Packages.hpkg-all:                  0
+  Packages.hpkg-system:               0
+  Packages.hpkg-user:                 0
+  Packages.kiss:                      0
+  Packages.linglong:                  0
+  Packages.lpkg:                      0
+  Packages.lpkgbuild:                 0
+  Packages.macports:                  0
+  Packages.moss:                      0
+  Packages.mport:                     0
+  Packages.nix-all:                   0
+  Packages.nix-default:               0
+  Packages.nix-system:                0
+  Packages.nix-user:                  0
+  Packages.opkg:                      0
+  Packages.pacman-branch:             
+  Packages.pacman:                    0
+  Packages.pacstall:                  0
+  Packages.paludis:                   0
+  Packages.pisi:                      0
+  Packages.pkg:                       0
+  Packages.pkgsrc:                    0
+  Packages.pkgtool:                   0
+  Packages.rpm:                       0
+  Packages.scoop-global:              0
+  Packages.scoop-user:                0
+  Packages.snap:                      0
+  Packages.soar:                      0
+  Packages.sorcery:                   0
+  Packages.winget:                    0
+  Packages.xbps:                      0
+
+━━━ PhysicalDisk ━━━
+  PhysicalDisk.dev-path:              /dev/disk0
+  PhysicalDisk.interconnect:          Apple Fabric
+  PhysicalDisk.name:                  APPLE SSD AP0512R Media
+  PhysicalDisk.physical-type:         SSD
+  PhysicalDisk.readonly-type:         Read-write
+  PhysicalDisk.removable-type:        Fixed
+  PhysicalDisk.revision:              555
+  PhysicalDisk.serial:                0ba0162a21289e40
+  PhysicalDisk.size:                  465.92 GiB
+  PhysicalDisk.temperature:           
+
+━━━ PhysicalMemory ━━━
+  PhysicalMemory.bytes:               17179869184
+  PhysicalMemory.form-factor:         
+  PhysicalMemory.is-ecc-enabled:      false
+  PhysicalMemory.is-installed:        true
+  PhysicalMemory.locator:             
+  PhysicalMemory.max-speed:           0
+  PhysicalMemory.part-number:         
+  PhysicalMemory.running-speed:       0
+  PhysicalMemory.serial:              
+  PhysicalMemory.size:                16.00 GiB
+  PhysicalMemory.type:                LPDDR5
+  PhysicalMemory.vendor:              Samsung
+
+━━━ Player ━━━
+  :                                   
+
+━━━ PowerAdapter ━━━
+  :                                   
+
+━━━ Processes ━━━
+  Processes.result:                   693
+
+━━━ PublicIp ━━━
+  Error:                              PublicIp module can only be used once due to internal limitations
+
+━━━ Shell ━━━
+  Shell.exe-name:                     bash
+  Shell.exe-path:                     /bin/bash
+  Shell.exe:                          /bin/bash
+  Shell.pid:                          45226
+  Shell.pretty-name:                  bash
+  Shell.process-name:                 bash
+  Shell.tty:                          3
+  Shell.version:                      3.2.57
+
+━━━ Sound ━━━
+  Sound.identifier:                   BuiltInSpeakerDevice
+  Sound.is-main:                      true
+  Sound.name:                         MacBook Pro Speakers
+  Sound.platform-api:                 Core Audio
+  Sound.volume-percentage-bar:        
+  Sound.volume-percentage:            38%
+
+━━━ Swap ━━━
+  Swap.name:                          
+  Swap.percentage-bar:                
+  Swap.percentage:                    91%
+  Swap.total:                         15.00 GiB
+  Swap.used:                          13.61 GiB
+
+━━━ Terminal ━━━
+  Terminal.exe-name:                  tmux
+  Terminal.exe-path:                  /opt/homebrew/Cellar/tmux/3.6a/bin/tmux
+  Terminal.exe:                       tmux
+  Terminal.pid:                       4740
+  Terminal.pretty-name:               tmux
+  Terminal.process-name:              tmux
+  Terminal.tty:                       
+  Terminal.version:                   3.6a
+
+━━━ TerminalFont ━━━
+  :                                   
+
+━━━ TerminalSize ━━━
+  TerminalSize.columns:               106
+  TerminalSize.height:                1015
+  TerminalSize.rows:                  29
+  TerminalSize.width:                 1696
+
+━━━ TerminalTheme ━━━
