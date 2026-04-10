@@ -86,7 +86,12 @@ alias python=/usr/bin/python3
 alias python3=/usr/bin/python3
 
 # ---- Eza (better ls) -----
-alias ls="eza --git --header --icons=always --sort=modified"
+alias ls="eza --git --header --icons=always --sort=modified --reverse"
+
+# ---- Re Alias' ----
+alias la="ls -a"
+alias ll="ls -l"
+alias l="ls"
 
 # ---- Zoxide (better cd) ----
 eval "$(zoxide init zsh)"
@@ -102,10 +107,6 @@ alias cat="bat"
 source <(fzf --zsh)
 source ~/.fzf-git.sh
 
-# ---- Re Alias' ----
-alias la="ls -a"
-alias ll="ls -l"
-alias l="ls"
 
 alias gst="git status"
 alias gcm="git commit -m"
