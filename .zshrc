@@ -1,9 +1,12 @@
 # ---- TITLE ----
-neofetch
+fastfetch
 alias src='source ~/.zshrc'
 
 # ---- HOMEBREW -----
 export PATH="/opt/homebrew/bin:$PATH"
+
+
+# ---- TERM -----
 
 # ---- Powerlevel10k -----
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -27,6 +30,16 @@ setopt hist_expire_dups_first
 setopt hist_ignore_dups
 setopt hist_verify
 
+# ---- Make Opt + Delete work -----
+bindkey '^[[27;3;127~' backward-kill-word
+
+
+# ---- Edit commands in vim using Ctrl-X Ctrl-E -----
+export EDITOR=nvim
+autoload edit-command-line
+zle -N edit-command-line
+bindkey '^Xe' edit-command-line
+
 # completion using arrow keys (based on history)
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
@@ -39,8 +52,18 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
-# ---- cd backwards -----
+# ---- cd -----
+alias b="cd -"
 alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+alias .......="cd ../../../../../.."
+alias ........="cd ../../../../../../.."
+alias .........="cd ../../../../../../../.."
+alias ..........="cd ../../../../../../../../.."
+alias ...........="cd ../../../../../../../../../.."
 
 # ---- NVM -----
 alias vim=nvim
@@ -50,11 +73,14 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # ---- Eza (better ls) -----
-alias ls="eza --git --header --icons=always"
+alias ls="eza --git --header --icons=always --sort=modified"
 
 # ---- Zoxide (better cd) ----
 eval "$(zoxide init zsh)"
 alias cd="z"
+
+# ---- RipGrep ----
+alias grep="rg"
 
 # ---- Bat ----
 alias cat="bat"

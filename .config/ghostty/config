@@ -17,13 +17,13 @@ theme = dark:tokyonight,light:BlulocoLight
 # background-opacity = 0.6
 # background-opacity = 1
 # background-blur-radius = 7
- # background = #222436
+# background = #222436
 # background = #000000
 # foreground = #c8d3f5
- # selection-background = #2d3f76
- # selection-foreground = #c8d3f5
- # cursor-color = #c8d3f5
- # cursor-text = #222436
+# selection-background = #2d3f76
+# selection-foreground = #c8d3f5
+cursor-color = #c8d3f5
+cursor-text = #222436
 
 # Palette Settings
 # palette = 0=#1b1d2b
@@ -44,8 +44,10 @@ theme = dark:tokyonight,light:BlulocoLight
 # palette = 15=#c8d3f5
 
 # Font and Mouse Settings
+shell-integration-features = no-cursor
 font-thicken = true
-cursor-style-blink = false
+cursor-style = block
+cursor-style-blink = true
 mouse-hide-while-typing = true
 mouse-shift-capture = true
 macos-option-as-alt = true
