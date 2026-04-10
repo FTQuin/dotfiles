@@ -98,7 +98,7 @@
     {
       "type": "battery",
       "key": "{#90}│ {#91}Battery     {#90}│",
-      "format": "{$1}{capacity}%  {#2}[{status}]"
+      "format": "{$1}{capacity} {#2}[{status}]"
     },
     {
       "type": "swap",
