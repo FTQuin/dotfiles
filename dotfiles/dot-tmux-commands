@@ -6,5 +6,8 @@ git push
 docker ps
 docker logs -f 
 
-npm run dev
-npm run build
+yarn run expo start
+yarn install
+
+tmuxinator start working
+tmuxinator start configuration

@@ -1,4 +1,4 @@
-name: dev
+name: develop
 root: ~/projects/Project_Tree/repos/develop/
 windows:
   - editor: nvim .

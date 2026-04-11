@@ -1,4 +1,4 @@
-name: working
+name: configuration
 root: ~/Configuration/
 windows:
   - editor: nvim .
