@@ -1,0 +1,10 @@
+git status
+git pull
+git commit -m 
+git push
+
+docker ps
+docker logs -f 
+
+npm run dev
+npm run build
