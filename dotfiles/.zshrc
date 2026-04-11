@@ -107,6 +107,9 @@ alias cat="bat"
 # ---- FZF ----
 source <(fzf --zsh)
 source ~/.fzf-git.sh
+export FZF_DEFAULT_OPTS="
+--preview 'if [ -f {} ]; then bat -f --style=full --line-range :300 {}; else echo {}; fi'
+"
 
 
 alias gst="git status"
