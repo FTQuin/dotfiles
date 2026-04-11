@@ -1,0 +1,11 @@
+name: experimental
+root: ~/projects/Project_Tree/repos/forest-data-experimental/
+windows:
+  - editor: nvim .
+  - claude: claude
+  - server:
+      layout: even-horizontal
+      panes:
+        - bun expo start
+        - # secondary pane
+  - terminal:

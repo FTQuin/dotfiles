@@ -1,0 +1,11 @@
+name: web
+root: ~/projects/Project_Tree/repos/web/
+windows:
+  - editor: nvim .
+  - claude: claude
+  - server:
+      layout: even-horizontal
+      panes:
+        - bun expo start
+        - # secondary pane
+  - terminal:
