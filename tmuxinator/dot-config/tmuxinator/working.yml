@@ -1,5 +1,5 @@
-name: web
-root: ~/projects/Project_Tree/repos/web/
+name: working
+root: ~/projects/Project_Tree/repos/working
 windows:
   - editor: nvim .
   - claude: claude

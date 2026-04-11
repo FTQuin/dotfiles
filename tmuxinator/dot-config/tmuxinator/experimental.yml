@@ -6,6 +6,6 @@ windows:
   - server:
       layout: even-horizontal
       panes:
-        - bun expo start
+        - yarn run expo start
         - # secondary pane
   - terminal:

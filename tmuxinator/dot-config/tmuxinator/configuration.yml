@@ -1,0 +1,6 @@
+name: working
+root: ~/Configuration/
+windows:
+  - editor: nvim .
+  - claude: claude
+  - terminal:
