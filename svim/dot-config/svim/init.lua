@@ -1,4 +1,4 @@
--- snvim: scratch neovim — minimal plugins, fast startup
+-- svim: scratch neovim — minimal plugins, fast startup
 
 -- ─── Leader ──────────────────────────────────
 vim.g.mapleader = " "

@@ -5,4 +5,17 @@
 -- with `vim.api.nvim_create_autocmd`
 --
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
--- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+
+local autocmd = vim.api.nvim_create_autocmd
+
+-- Add your background/theme toggle here
+autocmd("OptionSet", {
+  pattern = "background",
+  callback = function()
+    local ok, _ =
+      pcall(vim.cmd.colorscheme, vim.o.background == "dark" and "tokyonight" or "github_light_high_contrast")
+    if not ok then
+      return
+    end
+  end,
+})

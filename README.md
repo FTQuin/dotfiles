@@ -3,16 +3,16 @@
 ## for pushing dotfiles into the real world
 
 ```bash
-stow <package-name>
+stow --dotfiles <package-name>
 ```
-e.g. stow nvim
+e.g. stow --dotfiles nvim
 
 ## for pulling dotfiles from the real world
 
 ```bash
-stow <package-name or file> --adopt
+stow --dotfiles <package-name> --adopt
 ```
-e.g. stow <package-name> --adopt
+e.g. stow --dotfiles nvim --adopt
 
 ## for brew package management
 
