@@ -25,6 +25,7 @@ return {
           -- Format: /path/to/dir/<skill_name>/SKILL.md
           custom_rules = {
             "scratch/custom_rules/",
+            vim.fn.stdpath("config") .. "/99-rules/",
           },
 
           -- File completion settings use sensible defaults
