@@ -88,7 +88,7 @@ alias python=/usr/bin/python3
 alias python3=/usr/bin/python3
 
 # ---- Eza (better ls) -----
-alias ls="eza --git --header --icons=always --sort=modified --reverse"
+alias ls="eza --git --header --icons=always --sort=modified"
 
 # ---- Re Alias' ----
 alias la="ls -a"

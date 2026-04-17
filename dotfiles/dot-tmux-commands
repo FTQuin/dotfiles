@@ -1,13 +1,10 @@
-git status
-git pull
-git commit -m 
-git push
-
-docker ps
-docker logs -f 
-
 yarn run expo start
 yarn install
 
 tmuxinator start working
 tmuxinator start configuration
+
+ansible all -i 'flame1.bcgov,flame2.bcgov,' -m shell -a 'ls /dsk01/bcgov'
+
+cd /dsk01/bcgov/transfer
+.20260414

@@ -12,7 +12,8 @@ window-theme = system
 window-padding-balance = true
 
 # Appearance Settings
-theme = dark:0x96f,light:BlulocoLight
+# theme = dark:0x96f,light:BlulocoLight
+theme = dark:kanagawa dragon,light:ember-light
 # background-opacity = 0.002 # used for purely transparent background
 background-opacity = 0.8
 # background-opacity = 1
@@ -22,8 +23,8 @@ background-blur-radius = 8
 # foreground = #c8d3f5
 # selection-background = #2d3f76
 # selection-foreground = #c8d3f5
-cursor-color = #c8d3f5
-cursor-text = #222436
+# cursor-color = #c8d3f5
+# cursor-text = #222436
 
 # Palette Settings
 # palette = 0=#1b1d2b
@@ -51,3 +52,20 @@ cursor-style-blink = true
 mouse-hide-while-typing = true
 mouse-shift-capture = true
 macos-option-as-alt = true
+
+font-family = Monaspace Argon NF
+# font-family = Monaspace Neon NF
+# font-family = Jetbrains Mono NL
+# font-family = Jetbrains Mono
+font-feature = calt
+font-feature = liga
+font-feature = ss01
+font-feature = ss02
+font-feature = ss03
+font-feature = ss04
+font-feature = ss05
+font-feature = ss06
+font-feature = ss07
+font-feature = ss08
+font-feature = ss09
+font-feature = ss10
