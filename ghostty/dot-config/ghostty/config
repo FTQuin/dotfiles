@@ -13,7 +13,7 @@ window-padding-balance = true
 
 # Appearance Settings
 # theme = dark:0x96f,light:BlulocoLight
-theme = dark:kanagawa dragon,light:ember-light
+theme = dark:Kanagawa Dragon,light:ember-light
 # background-opacity = 0.002 # used for purely transparent background
 background-opacity = 0.8
 # background-opacity = 1
