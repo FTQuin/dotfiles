@@ -38,6 +38,8 @@ setopt hist_verify
 # ---- Make Opt + Delete work -----
 bindkey '^[[27;3;127~' backward-kill-word
 
+# ---- NVIM Man Pager -----
+export MANPAGER='nvim +Man!'
 
 # ---- Edit commands in vim using Ctrl-X Ctrl-E -----
 export EDITOR=nvim
@@ -148,3 +150,6 @@ alias ga="git add"
 [[ -f /Users/quinadam/.dart-cli-completion/zsh-config.zsh ]] && . /Users/quinadam/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$(brew --prefix nvm)/nvm.sh" ] && \. "$(brew --prefix nvm)/nvm.sh" # Loads nvm
+[ -s "$(brew --prefix nvm)/etc/bash_completion.d/nvm" ] && \. "$(brew --prefix nvm)/etc/bash_completion.d/nvm" # Loads nvm bash_completion
