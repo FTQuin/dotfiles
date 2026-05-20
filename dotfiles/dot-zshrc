@@ -101,9 +101,6 @@ alias l="ls"
 eval "$(zoxide init zsh)"
 alias cd="z"
 
-# ---- RipGrep ----
-alias grep="rg"
-
 # ---- Bat ----
 alias cat="bat"
 
