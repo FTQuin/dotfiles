@@ -53,10 +53,18 @@ mouse-hide-while-typing = true
 mouse-shift-capture = true
 macos-option-as-alt = true
 
-font-family = Monaspace Argon NF
-# font-family = Monaspace Neon NF
-# font-family = Jetbrains Mono NL
-# font-family = Jetbrains Mono
+font-family = Monaspace Neon NF
+font-style = Light
+
+font-family-italic = Monaspace Xenon NF
+font-style-italic = Light Italic
+
+font-family-bold = Monaspace Argon NF
+font-style-bold = ExtraBold
+
+font-family-bold-italic = Monaspace Krypton NF
+font-style-bold-italic = ExtraBold Italic
+
 font-feature = calt
 font-feature = liga
 font-feature = ss01
